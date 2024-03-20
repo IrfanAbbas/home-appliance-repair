@@ -1,0 +1,25 @@
+@media screen and (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr; /* Single column for smaller screens */
+      grid-template-rows: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .image-box img{
+      padding: 0px;
+      height: 562px;
+      width: 550px;
+    }
+    .text-box .number-list{
+      gap: 50px;
+      
+  }
+  
+  }
+  @media (max-width: 1024px) {
+    .text-box .number-list{
+      gap: 20px;
+      
+  }
+}
